@@ -1,0 +1,40 @@
+{
+  "name": "hedera-wallet-playground",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "init-token": "node initToken.js"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.0.14",
+    "axios": "^0.21.1",
+    "bootstrap-vue": "^2.0.4",
+    "dotenv": "^8.2.0",
+    "flatpickr": "^4.5.1",
+    "nouislider": "^11.1.0",
+    "register-service-worker": "^1.5.2",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.6.6",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-form-generator": "^2.3.4",
+    "vue-lazyload": "^1.2.6",
+    "vue-loading-overlay": "^3.4.2",
+    "vue-plugin-web3-providers": "^1.0.1",
+    "vue-router": "^3.0.2",
+    "vue2-transitions": "^0.2.3",
+    "vuex": "^3.6.2",
+    "vuex-persist": "^3.1.3",
+    "web3-utils": "^1.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.6"
+  }
+}
